@@ -1,0 +1,748 @@
+{
+   "nav_icon": "location-512.png",
+   "firstPhotoId":"1",
+   "firstPhotoRotation":360,
+   "photos":{
+      "1":{
+         "rotationOffset": 0,
+         "uri":"1.AlMirqab_Exterior.jpg",
+         "tooltips":[
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 60,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 80,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 100,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 120,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 140,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "2":{
+         "rotationOffset": 0,
+         "uri":"2.AlMirqab_Lobby.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 80,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 100,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 120,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 140,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           },
+            {
+               "type": "textblock",
+               "title": "The title",
+               "text": "text",
+               "attribution": "360 Photos",
+               "rotationY": -10,
+               "width": 1.5,
+               "height": 1.5
+            }
+         ]
+      },
+      "3":{
+         "rotationOffset": 0,
+         "uri":"3.Al_Jasra_Argaan_Moroccan_Restaurant.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 100,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 120,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 140,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "4":{
+         "rotationOffset": 0,
+         "uri":"4.Al_Jasra_Pearl_Suite_Lounge_1.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 120,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 140,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "5":{
+         "rotationOffset": 0,
+         "uri":"5.Al_Jasra_Pearl_Suite_Lounge_2.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 140,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "6":{
+         "rotationOffset": 0,
+         "uri":"6.Al_Jasra_Pearl_Room.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 160,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "7":{
+         "rotationOffset": 0,
+         "uri":"7.Blue_Heron_Beach_Resort.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 160,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 180,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "8":{
+         "rotationOffset": 0,
+         "uri":"8.Bismillah_Hotel-Bedroom_1.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 160,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 180,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 200,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "9":{
+         "rotationOffset": 0,
+         "uri":"9.Bismillah_Hotel-Bedroom_2.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 160,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 180,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 200,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 220,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "10":{
+         "rotationOffset": 0,
+         "uri":"10.Bismillah_Hotel-Balcony.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 160,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 180,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 200,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 220,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 240,
+              "linkedPhotoId":"11"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "11":{
+         "rotationOffset": 0,
+         "uri":"11.Bismillah_Hotel-Lounge.jpg",
+         "tooltips":[
+           {
+              "text":"1. AlMirqab Exterior",
+              "rotationY": 60,
+              "linkedPhotoId":"1"
+           },
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 80,
+              "linkedPhotoId":"2"
+           },
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 100,
+              "linkedPhotoId":"3"
+           },
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 120,
+              "linkedPhotoId":"4"
+           },
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 140,
+              "linkedPhotoId":"5"
+           },
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 160,
+              "linkedPhotoId":"6"
+           },
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 180,
+              "linkedPhotoId":"7"
+           },
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 200,
+              "linkedPhotoId":"8"
+           },
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 220,
+              "linkedPhotoId":"9"
+           },
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 240,
+              "linkedPhotoId":"10"
+           },
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 300,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "12":{
+         "rotationOffset": 0,
+         "uri":"12.Musheireb-Coral_Junior_Suite_Bedroom.jpg",
+         "tooltips":[
+            {
+               "text":"1. AlMirqab Exterior",
+               "rotationY": 60,
+               "linkedPhotoId":"1"
+            },
+            {
+               "text":"2. AlMirqab Lobby",
+               "rotationY": 80,
+               "linkedPhotoId":"2"
+            },
+            {
+               "text":"3. Al Jasra Argaan Moroccan Restaurant",
+               "rotationY": 100,
+               "linkedPhotoId":"3"
+            },
+            {
+               "text":"4. Al Jasra Pearl Suite Lounge 1",
+               "rotationY": 120,
+               "linkedPhotoId":"4"
+            },
+            {
+               "text":"5. Al Jasra Pearl Suite Lounge 2",
+               "rotationY": 140,
+               "linkedPhotoId":"5"
+            },
+            {
+               "text":"6. Al Jasra Pearl Room",
+               "rotationY": 160,
+               "linkedPhotoId":"6"
+            },
+            {
+               "text":"7. Blue Heron Beach Resort",
+               "rotationY": 180,
+               "linkedPhotoId":"7"
+            },
+            {
+               "text":"8. Bismillah Hotel Bedroom 1",
+               "rotationY": 200,
+               "linkedPhotoId":"8"
+            },
+            {
+               "text":"9. Bismillah Hotel Bedroom 2",
+               "rotationY": 220,
+               "linkedPhotoId":"9"
+            },
+            {
+               "text":"10. Bismillah Hotel Balcony",
+               "rotationY": 240,
+               "linkedPhotoId":"10"
+            },
+            {
+               "text":"11. Bismillah Hotel Lounge",
+               "rotationY": 300,
+               "linkedPhotoId":"11"
+            }
+         ]
+      }
+   }
+}
