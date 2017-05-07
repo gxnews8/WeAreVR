@@ -79,7 +79,7 @@ class NavButton extends React.Component {
 
     // Set alpha channel to zero for 'no color' to make a transparent view.
     const transparent = 'rgba(255, 255, 255, 0.0)';
-    const fillColor = 'rgba(255, 255, 255, 0.8)';
+    const fillColor = 'rgba(255, 0, 0, 0.5)';
 
     return (
       <VrButton
@@ -164,7 +164,7 @@ class NavButton extends React.Component {
           <Text
             style={{
               backgroundColor: 'rgba(0, 0, 0, 0.5)',
-              color: 'blue',
+              color: 'red',
               fontSize: this.props.height * 0.7,
               height: this.props.height,
               marginLeft: 0.05,

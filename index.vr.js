@@ -83,10 +83,22 @@ class WeAreVR extends React.Component {
             // contribute to the layout of other views.
             style={{
               position: 'absolute',
-              backgroundColor: isLoading ? 'rgba(0, 0, 0, 0.5)' : 'white',
+              backgroundColor: isLoading ? 'black' : 'white',
             }}
             onLoad={() => {
               const data = this.state.data;
+              // const keys = {
+              //   left: 'Q',
+              //   right: 'D',
+              //   up: 'Z',
+              //   down: 'S',
+              //   rotateLeft: 'A',
+              //   rotateRight: 'E',
+              //   fullScreen: 'F',
+              //   zeroSensor: 'W',
+              //   playPause: ' '
+              // };
+              // keys={ keys }
               this.setState({
                 // Now that ths new photo is loaded, update the locationId.
                 locationId: this.state.nextLocationId,
@@ -121,6 +133,7 @@ class WeAreVR extends React.Component {
                 }}
                 rotateY={tooltip.rotationY}
                 source={asset(this.state.data.nav_icon)}
+                onEnterSound={asset(this.state.data.onEnterSound)}
                 textLabel={tooltip.text}
                 translateZ={this.translateZ}
               />

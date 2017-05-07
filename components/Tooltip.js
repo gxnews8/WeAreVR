@@ -5,6 +5,7 @@ import {
   asset,
   Image,
   Text,
+  Sound,
   Video,
   View,
 } from 'react-vr';
@@ -52,6 +53,21 @@ class Tooltip extends React.Component {
         </Text>
       }
       </Image>
+    );
+  }
+
+  SoundTooltip(props) {
+
+    return(
+      <Sound
+        style={{
+          height: props.tooltip.height,
+          width: props.tooltip.width,
+        }}
+        source={asset(props.tooltip.source)}
+        //muted={props.tooltip.muted}
+      >
+      </Sound>
     );
   }
 
@@ -223,6 +239,8 @@ class Tooltip extends React.Component {
     switch(this.props.tooltip.type) {
       case 'image':
         return(<this.ImageTooltip tooltip={this.props.tooltip} />);
+      case 'sound':
+        return(<this.SOUNDTooltip tooltip={this.props.tooltip} />);
       case 'video':
         return(<this.VideoTooltip tooltip={this.props.tooltip} />);
       case 'panelimage':
