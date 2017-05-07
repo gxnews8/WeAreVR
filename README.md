@@ -1,5 +1,6 @@
 # WeAreVR
 We Are VR. We are building the VR with ThreeJS, A-Frame and React VR. 
+###### Live here https://gxnews8.github.io/jingdu.github.io/
 
 ###### 5/5/2017 10:16:08 PM by King at Coding Dojo. 
 ###### This demo run on Amazon AWS http://34.202.90.24/ 
