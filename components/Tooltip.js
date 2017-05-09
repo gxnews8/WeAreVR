@@ -240,7 +240,7 @@ class Tooltip extends React.Component {
       case 'image':
         return(<this.ImageTooltip tooltip={this.props.tooltip} />);
       case 'sound':
-        return(<this.SOUNDTooltip tooltip={this.props.tooltip} />);
+        return(<this.SoundTooltip tooltip={this.props.tooltip} />);
       case 'video':
         return(<this.VideoTooltip tooltip={this.props.tooltip} />);
       case 'panelimage':

@@ -1,12 +1,14 @@
 {
    "nav_icon": "location.png",
+   "info_icon": "info_icon.png",
    "onEnterSound": "onEnterSound.ogg",
+   "bgMusic": "Classical-guitar-music.mp3",
    "backgroundMusic": {
-     "1": "http://www.orangefreesounds.com/wp-content/uploads/2017/04/Classical-guitar-music.mp3",
-     "2": "http://www.orangefreesounds.com/wp-content/uploads/2017/01/Mystic-dream-piano-melody-104-bpm.mp3",
-     "3": "http://www.orangefreesounds.com/wp-content/uploads/2017/04/Singing-bowls-and-birds-chirping-sleep-music.mp3",
-     "4": "http://www.orangefreesounds.com/wp-content/uploads/2016/11/Melancholic-piano-music.mp3",
-     "5": "http://www.orangefreesounds.com/wp-content/uploads/2016/10/Calm-music-for-kids.mp3"
+     "1": "Classical-guitar-music.mp3",
+     "2": "Mystic-dream-piano-melody.mp3",
+     "3": "Singing-bowls-and-birds-chirping-sleep-music.mp3",
+     "4": "Melancholic-piano-music.mp3",
+     "5": "Calm-music-for-kids.mp3"
    },
    "firstPhotoId":"1",
    "firstPhotoRotation":360,

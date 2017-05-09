@@ -8,6 +8,7 @@ import {
   AppRegistry,
   asset,
   Image,
+  Sound,
   Pano,
   Text,
   View,
@@ -26,7 +27,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 class WeAreVR extends React.Component {
 
   static defaultProps = {
-    hotelSource: 'hotelData.json',
+    hotelSource: 'hotelDataMini.json',
   };
 
   constructor(props) {
@@ -37,12 +38,22 @@ class WeAreVR extends React.Component {
       nextLocationId: null,
       rotation: null,
     };
-
+    this.lastUpdate = Date.now();
+    this.rotate     = this.rotate.bind(this);
     // Set back UI elements from the camera (which is positioned at origin).
     this.translateZ = -3;
   }
 
+  rotate() {
+    const now       = Date.now();
+    const delta     = now - this.lastUpdate;
+    this.lastUpdate = now;
+    this.setState({rotation: this.state.rotation + delta / 360});
+    this.frameHandle = requestAnimationFrame(this.rotate);
+  }
+
   componentDidMount() {
+    this.rotate();
     fetch(asset(this.props.hotelSource).uri)
       .then((response) => response.json())
       .then((responseData) => {
@@ -77,28 +88,18 @@ class WeAreVR extends React.Component {
     return (
 
       <View>
-        <View style={{transform:[{rotateY: rotation}]}}>
+        <View style={{transform:[{rotateY: this.state.rotation}]}}>
+          <Sound loop={false} source={asset(this.state.data.bgMusic)} />
           <Pano
             // Place pano in world, and by using position absolute it does not
             // contribute to the layout of other views.
             style={{
               position: 'absolute',
               backgroundColor: isLoading ? 'black' : 'white',
+              // transform: [{rotateY: this.state.rotation}],
             }}
             onLoad={() => {
               const data = this.state.data;
-              // const keys = {
-              //   left: 'Q',
-              //   right: 'D',
-              //   up: 'Z',
-              //   down: 'S',
-              //   rotateLeft: 'A',
-              //   rotateRight: 'E',
-              //   fullScreen: 'F',
-              //   zeroSensor: 'W',
-              //   playPause: ' '
-              // };
-              // keys={ keys }
               this.setState({
                 // Now that ths new photo is loaded, update the locationId.
                 locationId: this.state.nextLocationId,
@@ -106,6 +107,7 @@ class WeAreVR extends React.Component {
             }}
             source={asset(this.state.data.photos[this.state.nextLocationId].uri)}
           />
+
           {tooltips && tooltips.map((tooltip, index) => {
             // Iterate through items related to this location, creating either
             // info buttons, which show tooltip on hover, or nav buttons, which
@@ -115,7 +117,7 @@ class WeAreVR extends React.Component {
                 <InfoButton
                   key={index}
                   rotateY={tooltip.rotationY}
-                  source={asset('info_icon.png')}
+                  source={asset(this.state.data.info_icon)}
                   tooltip={tooltip}
                   translateZ={this.translateZ}
                 />

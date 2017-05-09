@@ -1,0 +1,149 @@
+{
+   "nav_icon": "location.png",
+   "info_icon": "info_icon.png",
+   "onEnterSound": "onEnterSound.ogg",
+   "bgMusic": "Classical-guitar-music.mp3",
+   "backgroundMusic": {
+     "1": "Classical-guitar-music.mp3",
+     "2": "Mystic-dream-piano-melody.mp3",
+     "3": "Singing-bowls-and-birds-chirping-sleep-music.mp3",
+     "4": "Melancholic-piano-music.mp3",
+     "5": "Calm-music-for-kids.mp3"
+   },
+   "firstPhotoId":"1",
+   "firstPhotoRotation":360,
+   "photos":{
+      "1":{
+         "rotationOffset": 0,
+         "uri":"1.AlMirqab_Exterior.jpg",
+         "tooltips":[
+           {
+              "text":"2. AlMirqab Lobby",
+              "rotationY": 60,
+              "linkedPhotoId":"2"
+           }
+         ]
+      },
+      "2":{
+         "rotationOffset": 0,
+         "uri":"2.AlMirqab_Lobby.jpg",
+         "tooltips":[
+           {
+              "text":"3. Al Jasra Argaan Moroccan Restaurant",
+              "rotationY": 60,
+              "linkedPhotoId":"3"
+           }
+         ]
+      },
+      "3":{
+         "rotationOffset": 0,
+         "uri":"3.Al_Jasra_Argaan_Moroccan_Restaurant.jpg",
+         "tooltips":[
+           {
+              "text":"4. Al Jasra Pearl Suite Lounge 1",
+              "rotationY": 60,
+              "linkedPhotoId":"4"
+           }
+         ]
+      },
+      "4":{
+         "rotationOffset": 0,
+         "uri":"4.Al_Jasra_Pearl_Suite_Lounge_1.jpg",
+         "tooltips":[
+           {
+              "text":"5. Al Jasra Pearl Suite Lounge 2",
+              "rotationY": 60,
+              "linkedPhotoId":"5"
+           }
+         ]
+      },
+      "5":{
+         "rotationOffset": 0,
+         "uri":"5.Al_Jasra_Pearl_Suite_Lounge_2.jpg",
+         "tooltips":[
+           {
+              "text":"6. Al Jasra Pearl Room",
+              "rotationY": 60,
+              "linkedPhotoId":"6"
+           }
+         ]
+      },
+      "6":{
+         "rotationOffset": 0,
+         "uri":"6.Al_Jasra_Pearl_Room.jpg",
+         "tooltips":[
+           {
+              "text":"7. Blue Heron Beach Resort",
+              "rotationY": 60,
+              "linkedPhotoId":"7"
+           }
+         ]
+      },
+      "7":{
+         "rotationOffset": 0,
+         "uri":"7.Blue_Heron_Beach_Resort.jpg",
+         "tooltips":[
+           {
+              "text":"8. Bismillah Hotel Bedroom 1",
+              "rotationY": 60,
+              "linkedPhotoId":"8"
+           }
+         ]
+      },
+      "8":{
+         "rotationOffset": 0,
+         "uri":"8.Bismillah_Hotel-Bedroom_1.jpg",
+         "tooltips":[
+           {
+              "text":"9. Bismillah Hotel Bedroom 2",
+              "rotationY": 60,
+              "linkedPhotoId":"9"
+           }
+         ]
+      },
+      "9":{
+         "rotationOffset": 0,
+         "uri":"9.Bismillah_Hotel-Bedroom_2.jpg",
+         "tooltips":[
+           {
+              "text":"10. Bismillah Hotel Balcony",
+              "rotationY": 60,
+              "linkedPhotoId":"10"
+           }
+         ]
+      },
+      "10":{
+         "rotationOffset": 0,
+         "uri":"10.Bismillah_Hotel-Balcony.jpg",
+         "tooltips":[
+           {
+              "text":"11. Bismillah Hotel Lounge",
+              "rotationY": 60,
+              "linkedPhotoId":"11"
+           }
+         ]
+      },
+      "11":{
+         "rotationOffset": 0,
+         "uri":"11.Bismillah_Hotel-Lounge.jpg",
+         "tooltips":[
+           {
+              "text":"12. Musheireb Coral Junior Suite Bedroom",
+              "rotationY": 60,
+              "linkedPhotoId":"12"
+           }
+         ]
+      },
+      "12":{
+         "rotationOffset": 0,
+         "uri":"12.Musheireb-Coral_Junior_Suite_Bedroom.jpg",
+         "tooltips":[
+            {
+               "text":"1. AlMirqab Exterior",
+               "rotationY": 60,
+               "linkedPhotoId":"1"
+            }
+         ]
+      }
+   }
+}
