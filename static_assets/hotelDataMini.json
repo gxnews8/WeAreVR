@@ -1,6 +1,7 @@
 {
    "nav_icon": "location.png",
    "info_icon": "info_icon.png",
+   "menu_icon": "menu_icon.png",
    "onEnterSound": "onEnterSound.ogg",
    "bgMusic": "Classical-guitar-music.mp3",
    "backgroundMusic": {

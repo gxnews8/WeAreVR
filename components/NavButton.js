@@ -78,7 +78,7 @@ class NavButton extends React.Component {
   render() {
 
     // Set alpha channel to zero for 'no color' to make a transparent view.
-    const transparent = 'rgba(255, 255, 255, 0.0)';
+    const transparent = 'rgba(255, 0, 0, 0.0)';
     const fillColor = 'rgba(255, 0, 0, 0.5)';
 
     return (

@@ -8,8 +8,10 @@ import {
   AppRegistry,
   asset,
   Image,
+  Model,
   Sound,
   Pano,
+  PointLight,
   Text,
   View,
 } from 'react-vr';
@@ -86,17 +88,32 @@ class WeAreVR extends React.Component {
     const isLoading = this.state.nextLocationId !== this.state.locationId;
 
     return (
-
       <View>
-        <View style={{transform:[{rotateY: this.state.rotation}]}}>
-          <Sound loop={false} source={asset(this.state.data.bgMusic)} />
+        <View style={{transform:[{rotateY:rotation}]}}>
+          <Sound loop={false} autoPlay={false} volume={1}  source={asset(this.state.data.bgMusic)} />
+          <Model
+            style={{
+              transform: [
+                {translate: [0, -2, -3]},
+                {scale: 0.1},
+                {rotateY: this.state.rotation},
+                {rotateX: -90},
+              ],
+            }}
+            source={{
+              obj: asset('models/louvre/Model.obj'),
+              mtl: asset('models/louvre/Model.mtl'),
+            }}
+            lit={true}
+          />
+          <PointLight style={{color: 'white', transform: [{translate: [0, 400, 700]}]}} />
           <Pano
             // Place pano in world, and by using position absolute it does not
             // contribute to the layout of other views.
             style={{
               position: 'absolute',
               backgroundColor: isLoading ? 'black' : 'white',
-              // transform: [{rotateY: this.state.rotation}],
+              transform: [{rotateY: this.state.rotation - rotation}],
             }}
             onLoad={() => {
               const data = this.state.data;
